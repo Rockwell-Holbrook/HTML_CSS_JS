@@ -1,0 +1,24 @@
+<script>
+var cities = ["Alpine", "American Fork", "Aurora", "Bear River", "Beaver", "Blanding", "Bluffdale", "Bountiful", "Castle Dale", "Cedar", "Centerville", "Clearfield", "Coalville", "Corinne", "Cottonwood Heights", "Delta", "Draper", "Duchesne", "East Carbon", "Enoch", "Enterprise", "Ephraim", "Escalante", "Fairview", "Farr West", "Ferron", "Fillmore", "Fountain Green", "Fruit Heights", "Garden", "Garland", "Genola", "Grantsville", "Harrisville", "Heber", "Ivins", "Kamas", "Kanab", "La Verking", "Layton", "Manti", "Mapleton", "Naples", "Nephi", "Oak", "Oakley", "Park", "Perry", "Richfield", "Richmond", "Salem", "Salina", "Taylorsville", "Tooele", "Wellington", "Wellsville"];
+var mfunc = function() {
+  var part = document.getElementById("partial").value;
+  var suggestions = document.getElementById("suggestions");
+  var inner = "<ul>";
+  console.log("part = "+part);
+  for(i = 0; i < cities.length; i++) {
+    if(cities[i].startsWith(part)) {
+      inner += "<li>"+cities[i]+"</li>";
+    }
+  }
+  inner+="</ul>";
+  suggestions.innerHTML = inner;
+};
+</script>
+    
+    <h1>Cities </h1>
+<p>
+
+      Enter City: <input type="text" id="partial" onkeyup="mfunc()">
+
+    <div id="suggestions">Suggested Cities: </div>
+
