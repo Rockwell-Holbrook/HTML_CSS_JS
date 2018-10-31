@@ -1,0 +1,36 @@
+body {
+    background-image: url("HP-Wallpaper.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+.title {
+    text-align: center;
+    font-family: "Bradley Hand","Times New Roman", Times, serif;
+}
+
+#allHouses {
+    width: 1225px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#house button {
+    width: 250px;
+    height:100px;
+    display: block;
+    float: left;
+    margin-left: 45px;
+    font-size: 20px;
+    color: white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    background-color: #660000;
+}
+
+#houseInformation {
+    text-align: center;
+    font-size: 25px;
+}
