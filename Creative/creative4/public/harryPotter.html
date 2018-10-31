@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> The Characters of Harry Potter </title>
+        
+        <link rel="stylesheet" href="harryStyles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script
+          src="http://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+        </script>
+        <script src="harryJS.js"></script> 
+    </head>
+ <body>
+    <form class = "mainForm">
+        <p class = "title"> Enter a Character From Harry Potter: </p> <input type="text" id="characterNameField" value=""><br>
+        <input id="characterButton" class="submitButton" type="submit" value="Submit"><br>
+        
+        <div id="characterInformation">
+            <p class = "characterP" id = "errorMessage"></p>
+            <p class = "characterP" id = "name"></p>
+            <p class = "characterP" id = "school"></p>
+            <p class = "characterP" id = "house"></p>
+            <p class = "characterP" id = "bloodStatus"></p>
+            <p class = "characterP" id = "species"></p>
+        </div>
+    </form>
+ </body>
+</html>
