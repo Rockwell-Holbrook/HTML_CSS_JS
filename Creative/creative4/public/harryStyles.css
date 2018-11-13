@@ -1,0 +1,29 @@
+body {
+    background-color: #8cb3f2 !important;
+}
+
+.submitButton {
+    background-color: #e3f7be;
+}
+
+.mainForm {
+    font-size: 22px;
+    text-align: center;
+}
+
+.mainForm input {
+    font-family: "Bradley Hand","Times New Roman", Times, serif;
+}
+
+.title {
+    font-size: 30px;
+    font-family: "Bradley Hand","Times New Roman", Times, serif;
+}
+
+#characterNameField {
+    margin-bottom: 15px;
+}
+
+#characterInformation {
+    margin-top: 20px;
+}
