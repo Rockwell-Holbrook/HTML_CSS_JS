@@ -2,6 +2,11 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
+
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/commentDB',{useMongoClient:true});
+require('./models/Comments');
+
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');

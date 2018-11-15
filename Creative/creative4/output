@@ -3,3 +3,4 @@ nohup: ignoring input
 [0mGET /harryStyles.css [32m200 [0m1.873 ms - 443[0m
 [0mGET /harryJS.js [32m200 [0m1.265 ms - 2339[0m
 [0mGET /favicon.ico [33m404 [0m11.116 ms - 1023[0m
+[0mGET / [32m200 [0m1.112 ms - 1209[0m

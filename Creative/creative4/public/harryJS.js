@@ -3,6 +3,7 @@ $(document).ready(function() {
     $("#characterButton").click(function(e){
     e.preventDefault();
     $(".characterP").html("");
+    $("#history").html("");
       
     var initial = $("#characterNameField").val();
     console.log(initial);
@@ -54,9 +55,53 @@ $(document).ready(function() {
                         
                         $("#species").html("<strong> Species: </strong> " + parsed_json[0]['species']);
                     }
-                },
-                
+                    
+                    var url = "getHistory";
+                    var myobj = {characterName: $("#characterNameField").val()};
+                    jobj = JSON.stringify(myobj);
+                    $("#json").text(jobj);
+                 
+                    $.ajax({
+                        url:url,
+                        type: "POST", 
+                        data: jobj,
+                        contentType: "application/json; charset=utf-8",
+                        success: function(data,textStatus) {
+                          console.log("success!")
+                        }
+                    });
+                }
           });
-      
      });
+     
+     $("#getHistoryButton").click(function(e){
+         e.preventDefault();
+         $("#history").html("");
+         $(".characterP").html("");
+         
+         $.getJSON('getHistory', function(data) {
+              console.log(data);
+              var everything = "<h1> Search History: </h1>"; 
+              for(var comment in data) {
+                
+                var name = data[comment]['characterName'];
+                everything += "<p>" + name + "</p>"
+              }
+              $("#history").html(everything);
+         })
+         
+     });
+     
+      $("#clearHistoryButton").click(function(){
+        console.log("clickedDelete");
+        var url = "delete";
+        $.ajax({
+            url:url,
+            type: "POST", 
+            success: function(data,textStatus) {
+                $("#history").html("");
+            }
+        });
+     });
+     
 });

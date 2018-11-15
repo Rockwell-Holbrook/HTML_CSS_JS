@@ -15,7 +15,9 @@
  <body>
     <form class = "mainForm">
         <p class = "title"> Enter a Character From Harry Potter: </p> <input type="text" id="characterNameField" value=""><br>
-        <input id="characterButton" class="submitButton" type="submit" value="Submit"><br>
+        <input id="characterButton" class="submitButton" type="submit" value="Search">
+        <input id="getHistoryButton" class="submitButton" type="submit" value="Get Search History">
+        <input id="clearHistoryButton" class="submitButton" type="submit" value="Clear Search History"><br>
         
         <div id="characterInformation">
             <p class = "characterP" id = "errorMessage"></p>
@@ -25,6 +27,8 @@
             <p class = "characterP" id = "bloodStatus"></p>
             <p class = "characterP" id = "species"></p>
         </div>
+        
+        <div id="history"></div>
     </form>
  </body>
 </html>
