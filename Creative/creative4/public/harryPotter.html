@@ -2,6 +2,33 @@
 <html>
     <head>
         <title> The Characters of Harry Potter </title>
+        <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+        
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyA9hss4qdr8fNJ656bPpQUZn_mTxmFpw9c",
+            authDomain: "creativeassignment-ff5eb.firebaseapp.com",
+            databaseURL: "https://creativeassignment-ff5eb.firebaseio.com",
+            projectId: "creativeassignment-ff5eb",
+            storageBucket: "creativeassignment-ff5eb.appspot.com",
+            messagingSenderId: "900099492243"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
+        <script>
+            //Handle Account Status
+        firebase.auth().onAuthStateChanged(function(user) {
+            if(!user) {
+                console.log("Not Logged In!");
+               window.location = 'http://18.216.5.178:8081/auth.html'; //If User is not logged in, redirect to login page
+            }
+            else {
+                console.log("Logged In!");
+            }
+        });
+        </script>
         
         <link rel="stylesheet" href="harryStyles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,7 +44,14 @@
         <p class = "title"> Enter a Character From Harry Potter: </p> <input type="text" id="characterNameField" value=""><br>
         <input id="characterButton" class="submitButton" type="submit" value="Search">
         <input id="getHistoryButton" class="submitButton" type="submit" value="Get Search History">
-        <input id="clearHistoryButton" class="submitButton" type="submit" value="Clear Search History"><br>
+        <input id="clearHistoryButton" class="submitButton" type="submit" value="Clear Search History">
+        <input id="logout" class="submitButton" type="submit" value="Logout" onClick="(function(){
+    console.log('Hey i am calling');
+    firebase.auth().signOut();
+    return false;
+})();return false;"><br>
+        
+        
         
         <div id="characterInformation">
             <p class = "characterP" id = "errorMessage"></p>
